@@ -1,0 +1,14 @@
+/*tem25-list-picture-text*/
+.tem25-list-picture-text{margin:30px 0 10px;}
+.tem25-list-picture-text .text{transition:all 0.4s ease-out 0s;background:#41B3EE;color:#fff;padding:60px 40px;text-align:center;}
+.tem25-list-picture-text .title{font-size:20px;color:#fff;position:relative;padding-bottom:30px;line-height:30px;height:60px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+.tem25-list-picture-text .title::before{position:absolute;content:"";left:50%;bottom:15px;width:30px;height:2px;background-color:#fff;margin-left:-15px;}
+.tem25-list-picture-text .description{font-size:13px;color:#fff;line-height:25px !important;max-height:150px;overflow:hidden;}
+@media (max-width:768px){
+    .tem25-list-picture-text .text{padding:40px;}
+    .tem25-list-picture-text .title{font-size:18px;line-height:24px !important;height: 48px;}
+}
+@media (max-width:480px){
+    .tem25-list-picture-text .text{padding:20px 15px;}
+    .tem25-list-picture-text .title{height:auto;}
+}

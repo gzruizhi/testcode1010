@@ -1,0 +1,26 @@
+/* tem77-irregular */
+.tem77-irregular{/*display:flex;*/margin:auto;padding:25px 0 0px;justify-content:space-between;}
+.tem77-irregular section{padding:0}
+.tem77-irregular>div{padding:0 10px;margin:auto;}
+.tem77-irregular .rou{display:inline-block;float:left;position:relative;}
+.tem77-irregular .rou1{width:152px;height:152px;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;transition:0.5s;}
+.tem77-irregular .rou1:after{content:"";width:100%;height:50%;position:absolute;top:0;left:0;border:3px solid #666;border-radius:100px 100px 0 0;opacity:0.5;border-bottom:none;border-right:none;}
+.tem77-irregular .rou1:before{content:"";width:100%;height:50%;position:absolute;bottom:0;right:0;border:3px solid #666;border-radius:100px 100px 0 0;opacity:0.5;border-bottom:none;border-right:none;-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+.tem77-irregular .rou2{width:152px;height:152px;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;transition:0.5s;}
+.tem77-irregular .rou2:after{content:"";width:44%;height:44%;position:absolute;top:7%;left:7%;border:1px solid #666;opacity:0.2;border-radius:100px 0 0 ;border-bottom:none;border-right:none;}
+.tem77-irregular .rou2:before{content:"";width:44%;height:44%;position:absolute;bottom:7%;right:7%;border:1px solid #666;opacity:0.2;border-radius:100px 0 0  ;border-bottom:none;border-right:none;-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+.tem77-irregular .rou3{width:110px;height:110px;border-radius:50%;top:0;left:0;right:0;bottom:0;margin:auto;margin-bottom:20px;opacity:0.7;}
+.tem77-irregular .rou>div:nth-child(1){position:relative;}
+.tem77-irregular .rou>div:nth-child(1)>.p{width:52px;height:68px;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;font-size:45px;color:white;overflow:hidden;text-align:center;line-height:68px}
+.tem77-irregular .tem77-irregular3-1{margin-top:30px;text-align:center;line-height:20px;height:60px;overflow:hidden;}
+.tem77-irregular .tem77-irregular3-1 a{color:#333;}
+.tem77-irregular .rou:hover .rou1{-webkit-transform:rotate(-180deg);transform:rotate(-180deg);}
+.tem77-irregular .rou:hover .rou2{-webkit-transform:rotate(180deg);transform:rotate(180deg);}
+@media screen and (max-width:500px){
+/*.tem77-irregular{}*/
+    .tem77-irregular .rou>div:nth-child(1)>.p{font-size:30px;text-align:center;width:46px;height:46px;line-height:46px;}
+    .tem77-irregular .rou1{width:100px;height:100px;}
+    .tem77-irregular .rou2{width:100px;height:100px;}
+    .tem77-irregular .rou3{width:70px;height:70px;margin-bottom:15px;}
+    .tem77-irregular .tem77-irregular3-1{/*width:100px;*/font-size:12px;}
+}

@@ -1,0 +1,38 @@
+.tem279-irregular.content-right .left{padding: 0 0 0 10%;}
+.tem279-irregular{position: relative;z-index: 5;}
+.tem279-irregular .col-lg-8{padding: 0!important;}
+.tem279-irregular .tem43-list-title .title{font-size: 24px;}
+.tem279-irregular .tem43-list-title .description{line-height: 170%;font-size: 14px;color:#6a7173;margin-top: 15px;}
+.tem279-irregular .wrap{display: flex;display: -webkit-flex; flex-wrap: wrap;align-items:center;}
+.tem279-irregular.content-right .wrap {flex-direction:row-reverse}
+.tem279-irregular .wrap .image{background-size: cover;transition: .4s ease 0s;}
+.tem279-irregular .wrap .image img{width: 100%;opacity: 0;}
+.tem279-irregular .wrap .item:hover .image {transform: scale(1.05);}
+.tem279-irregular .wrap .item {margin: 25px 0;display: block;width: 100%;height: 100%;}
+.tem279-irregular .wrap .item .text{width: 100%;color:#232323;padding: 20px 0 0;}
+.tem279-irregular .wrap .item .title{line-height: 22px;color:inherit;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.tem279-irregular .wrap .item .description{line-height: 180%;font-size:12px;color: inherit;opacity: .7;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+@media (max-width:768px){
+    .tem279-irregular .title-header .title strong{font-size:16px!important;line-height: 22px!important;}
+    .tem279-irregular .wrap .item .text{padding-top: 10px;}
+    .tem279-irregular .wrap .item{margin: 10px 0;}
+    .tem279-irregular .wrap{padding:0 2%;}
+    .tem279-irregular.full-screen-spacing .wrap{padding:0;}
+    .tem279-irregular.full-screen-spacing .title-header{padding:0 3%;}
+    .tem279-irregular.full-screen-spacing .wrap .item .text{padding: 3%;}
+    .tem279-irregular .wrap .items .col-xs-6:nth-of-type(2n+1){clear:both;}
+}     
+@media (max-width:767px){
+    .tem279-irregular .wrap{display: block;}
+    .tem279-irregular .wrap .content-float{width: 100%;}
+    .tem279-irregular .col-lg-8 [func-id="1"]{width: 50%;}
+}
+@media (max-width:480px){
+    .tem279-irregular .wrap .sPro .item .image{width: 100%;}
+    .tem279-irregular .wrap .sPro .item .text{width: 100%;padding-left:0;margin-top: 12px;}
+    .tem279-irregular .wrap .sToggle{margin:15px 0 10px;}
+    .tem279-irregular .wrap .sPro .item .title{margin-bottom: 5px;}
+    .tem279-irregular .wrap .sPro .item .description{margin-bottom: 20px;}
+    .tem279-irregular .wrap .sPro .item .more{letter-spacing: 0;padding:6px 20px;}
+}     
+

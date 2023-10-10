@@ -1,0 +1,42 @@
+.tem111-service .box{display: flex;display: -webkit-flex;align-items: center;flex-wrap: nowrap;}
+.tem111-service .title-header {width: 30%;flex-shrink: 0;}
+.tem111-service .title-header .title{color:#333;font-size: 1.75rem;margin-bottom: 30px;}
+.tem111-service .title-header .description{color:#777;line-height: 180%;}
+.tem111-service .title-header .more {width: 100%;margin-top: 15px;display: block;border-left: 2px solid;padding: 5px 15px;font-weight: 700;}
+.tem111-service .wrap{flex-shrink: 1;width: 100%;}
+.tem111-service .flexBoxWrap{margin-left: 40px;}
+.tem111-service.content-right .box{flex-direction: row-reverse;}
+.tem111-service.content-right .flexBoxWrap{margin-left: 0;margin-right: 40px;}
+.tem111-service .items{margin:15px 0;}
+.tem111-service .items .item{padding: 8%;border-radius: 2px;color:#444;height: 100%;border:1px solid;border-color: #aaa;}
+.tem111-service .items a{color:inherit;}
+.tem111-service .items .icon{font-size: 3rem;}
+.tem111-service .items .title{font-size: 1.25rem;}
+.tem111-service .items .description{line-height: 180%;opacity: .6;margin-top: 10px;}
+@media(min-width:769px){
+    .tem111-service .items .item:hover{border-color: #111;}
+    .tem111-service .title-header .more:hover {padding-left: 25px;}
+}
+@media(max-width:991px){
+    .tem111-service .wrap{margin-top:15px;}
+    .tem111-service .box{flex-wrap: wrap;}
+    .tem111-service .title-header{width: 100%;}
+    .tem111-service .flexBoxWrap{margin-left: 0;}
+}
+@media(max-width:768px){
+    .tem111-service .container,
+    .tem111-service.full-screen-spacing .container.full-screen{padding-left: 3%!important;padding-right: 3%!important}
+    .tem111-service .items{margin:8px 0;}
+    .tem111-service .items .item{padding: 3%;}
+    .tem111-service .box{flex-wrap: wrap;}
+    .tem111-service .title-header{width: 100%;}
+    .tem111-service .flexBoxWrap{margin-left: 0;margin-top: 0;}
+    .tem111-service.content-right .flexBoxWrap{margin-right: 0;}
+    .tem111-service .title-header .title{margin-bottom: 10px;}
+    .tem111-service .wrap{margin-top:0;}
+}
+@media(max-width:480px){
+    .tem111-service .items{padding: 0!important;width: 100%;max-width: 100%;}
+    .tem111-service .items .item{padding: 3%;}
+    .tem111-service .items .icon{font-size: 2rem;}
+}

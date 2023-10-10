@@ -1,0 +1,9 @@
+/* tem22-title */
+.tem21-title.tem22-title .box{margin-top:-115px;}
+.tem21-title.tem22-title .block{transform:rotate(180deg);}
+@media (max-width:768px){
+    .tem21-title.tem22-title .box{margin-top:-110px;}
+    .tem22-title{padding-top: 15px;}
+    .tem21-title.tem22-title {padding-left: 2%!important;padding-right: 2%!important;}
+    .full-screen-spacing .full-screen .tem21-title.tem22-title{padding-left: 3%!important;padding-right: 3%!important;}
+}

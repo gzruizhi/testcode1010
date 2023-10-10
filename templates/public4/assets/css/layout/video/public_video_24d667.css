@@ -1,0 +1,47 @@
+.tem24-video.content-right .flexBoxStem{flex-direction: row-reverse;}
+.tem24-video .item1 .box{display: flex;display: -webkit-flex;flex-wrap: wrap;}
+.tem24-video .item1 .box.reverse{flex-wrap: wrap-reverse;}
+.tem24-video .wrap{display: flex;display: -webkit-flex;flex-wrap: wrap;align-items: center;}
+.tem24-video .flexBoxStem .flexBoxFill{flex: 1 1 0;}
+.tem24-video.content-right .wrap{flex-direction: row-reverse;}
+.tem24-video .item2 .box{padding: 0 0 0 5%;}
+.tem24-video.content-right .item2 .box{padding: 0 5% 0 0;}
+.tem24-video .item1 .text{padding: 20px 0}
+.tem24-video .item .text .title{font-size: 18px;margin-bottom: 15px;color:#232323;}
+.tem24-video .item .text .description{line-height: 170%;color:#666;}
+.tem24-video .item2 .text{padding: 20px 0 30px;}
+.tem24-video .item2 .text .title{font-size: 18px;margin-bottom: 10px;}
+.tem24-video .box img{width: 100%;}
+.tem24-video .item2 .box img{transition: .3s ease;}
+.tem24-video .item2 .box img:hover{transform: scale(1.05);-o-transform: scale(1.05);-moz-transform: scale(1.05);-ms-transform: scale(1.05);-webkit-transform: scale(1.05);}
+.tem24-video .item .video{position: relative;}
+.tem24-video .item .video .play{position: absolute;width: 46px;height: 46px;line-height: 46px;border-radius: 50%;font-size: 26px;left:50%;top:50%;background: #fff;text-align: center;box-shadow: 0 0 18px rgba(0,0,0,.08);border-color: rgba(255,255,255,.3);transform: translate(-50%,-50%);-o-transform: translate(-50%,-50%);-moz-transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);-webkit-transform: translate(-50%,-50%);}
+.tem24-video .item .video .play::after{position: absolute;content: "";left:0;top:0;width: 100%;height: 100%;border:10px solid;border-color: inherit;border-radius: 50%;opacity:0;transition: .4s ease-out;-o-transition: .4s ease-out;-moz-transition: .4s ease-out;-ms-transition: .4s ease-out;-webkit-transition: .4s ease-out;}
+.tem24-video .item .video:hover .play::after{transform: scale(1.3);-o-transform: scale(1.3);-ms-transform: scale(1.3);-moz-transform: scale(1.3);-webkit-transform: scale(1.3);opacity: 1;}
+.tem24-video .item .video .play span{line-height: 46px;}
+.tem24-video .swiper-button-next, 
+.tem24-video .swiper-button-prev{background-image: none!important;width: 32px;height: 32px;background-color:#fff;text-align: center;box-shadow: 0 0 10px  rgba(0,0,0,.1);border-radius: 50%;color:#333;bottom:40px;top: auto;font-size: 16px;}
+.tem24-video .swiper-button-next span, 
+.tem24-video .swiper-button-prev span{display: block;line-height: 32px;}
+.tem24-video .swiper-button-prev{right: 85px;left:auto;transform: rotateY(180deg);-o-transform: rotateY(180deg);-moz-transform: rotateY(180deg);-webkit-transform: rotateY(180deg);-ms-transform: rotateY(180deg);}
+.tem24-video .swiper-button-next{right: 40px;}
+.tem24-video .video_show{width:100vw;height:100vh;position:fixed;top:0;left:0;display:none;z-index:-1;opacity:0}
+.tem24-video .video_show:before{content:"";width:100%;height:100%;position:absolute;top:0;left:0;display:block;z-index:2}
+.tem24-video .video_show .box{display:block;background-color:#FFF;box-shadow:0 0 50px rgba(0,0,0,.2);position:absolute;top:50%;left:50%;z-index:3;transform: translate(-50%,-50%);-o-transform: translate(-50%,-50%);-moz-transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);-webkit-transform: translate(-50%,-50%);}
+.tem24-video .video_show .box video{display:block;max-height:80vh;max-width:90vw;width:auto}
+.tem24-video .video_show .box .title{padding:10px 20px;font-size:18px}
+.tem24-video .video_show .box .title span{display:block}
+.tem24-video .video_show .box .left{float:left}
+.tem24-video .video_show .box .left span{padding:8px 0}
+.tem24-video .video_show .box .right{float:right}
+.tem24-video .video_show .box .right span{padding:12px 0}
+.tem24-video .video_show .video_close{cursor:pointer}
+.tem24-video .video_show.show{display:block;z-index:99;opacity:1}
+.tem24-video .video_show.show:before{background-color:rgba(0,0,0,.2)}
+@media (max-width:768px){
+    .tem24-video .container,
+    .tem24-video.full-screen-spacing .container.full-screen{padding-left: 3%!important;padding-right: 3%!important;}
+    .tem24-video .item2 .box{padding: 0!important;margin-bottom: 0;}
+    .tem24-video .item1 .text{padding: 3%;}
+} 
+

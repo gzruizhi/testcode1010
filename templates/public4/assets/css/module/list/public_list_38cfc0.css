@@ -1,0 +1,38 @@
+/*****effect-grid38*****/
+.mainlist .effect-grid38 :not(.flexBoxWrap) .col-lg-2:nth-of-type(6n+1),
+.mainlist .effect-grid38 :not(.flexBoxWrap) .col-lg-3:nth-of-type(4n+1),
+.mainlist .effect-grid38 :not(.flexBoxWrap) .col-lg-4:nth-of-type(3n+1),
+.mainlist .effect-grid38 :not(.flexBoxWrap) .col-lg-6:nth-of-type(2n+1){clear:both;}
+.mainlist .effect-grid38{width:100%;overflow:hidden;}
+.mainlist .effect-grid38 .col-xs-6,
+.mainlist .effect-grid38 .item{padding:0 10px;}
+.mainlist .effect-grid38 .flexBoxWrap a,
+.mainlist .effect-grid38 .flexBoxWrap figure{display: block;height: 100%;}
+.mainlist .effect-grid38 figure{width:100%;overflow:hidden;color:#444;background:#fff;margin:10px 0;padding:15px;transition:all 0.2s linear 0s;padding:0;}
+.mainlist .effect-grid38 figure:hover{transform:scale(1.1);}
+.mainlist .effect-grid38 .images{width:100%;overflow:hidden;height:auto;position:relative;background-size: cover;background-position: center;}
+.mainlist .effect-grid38 .images img{transition:all 0.3s ease-in 0s;max-width:100%;height:auto;display:block;margin:0 auto;}
+.mainlist .effect-grid38 .flexBoxWrap .images{height: calc(100% - 100px);}
+.mainlist .effect-grid38 .flexBoxWrap img{opacity: 0;}
+.mainlist .effect-grid38 .discountTag{position: absolute; left:0; top:0; color: #fff; padding: 0 3px;font-size:14px;display: inline-block;}
+.mainlist .effect-grid38 .flexBoxWrap .images{height: calc(100% - 100px);}
+.mainlist .effect-grid38 .discountTag{position: absolute; left:0; top:0; color: #fff; padding: 0 3px;font-size:14px;display: inline-block;}
+.mainlist .effect-grid38 figcaption{width:100%;background:#fff;padding:20px 15px;color:#000;}
+.mainlist .effect-grid38 figcaption h3,
+.mainlist .effect-grid38 figcaption .h3{font-size:14px;font-weight:normal;line-height:26px;overflow:hidden;margin:0;padding:0;max-height:52px;width:100%;text-align:center;color:inherit;}
+.mainlist .effect-grid38 figcaption a{color:#333;font-size:16px;font-weight:normal;text-align:left;display:inline-block;width:100%;padding:10px 15px;}
+.mainlist .effect-grid38 .pro_price{line-height:26px;background:none;text-align:center;}
+.mainlist .effect-grid38 .pro_price b{font-weight:normal;}
+.mainlist .effect-grid38 .mod_price i{margin-right:3px;font-family:arial;font-weight:300;font-style:normal;font-size:12px;}
+.mainlist .effect-grid38 .price_new{font-size:12px;font-weight:normal;opacity:.9;}
+.mainlist .effect-grid38 .price_origin{font-size:12px;opacity:.5;}
+.mainlist .effect-grid38 .price_origin del{font-weight:300;}
+.mainlist .effect-grid38 .hidden-xs [proList="inquire"]{display:block;width:76px;text-align:center;margin:6px auto 0}
+.mainlist .effect-grid38 .tem0-list ul li,
+.mainlist .effect-grid38 .tem0-list ul li a{height:130px}
+.mainlist .effect-grid38 .tem0-list ul li a .image{width:120px;height:120px}
+.mainlist .effect-grid38 .tem0-list ul li a .text{padding:0 15px 0 150px}
+.mainlist .effect-grid38 .tem0-list ul li a .text .h3{margin-top:0}
+
+/* No Data */
+.mainlist .effect-grid38 .noData{padding:10% 0;font-size:18px;border:1px dashed #ccc;color:#888;}

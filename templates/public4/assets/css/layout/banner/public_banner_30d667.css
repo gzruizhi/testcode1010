@@ -1,0 +1,23 @@
+/*tem30-banner*/
+.tem30-banner .tem30-banner-con{width:100%;/*height:100%;*/position:relative;overflow:hidden;}
+.tem30-banner .swiper-slide{text-align:center;font-size:18px;background:#fff;display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center;}
+.tem30-banner .swiper-slide img{width:100%;/*height:100%;*/}
+.tem30-banner .swiper_icon{position:absolute;left:0;bottom:40px;width:200px;height:120px;transition:0.3s;z-index:1;display:none;border:3px solid #eee;box-sizing:content-box;}
+.tem30-banner .swiper_icon:after{content:"";display:block;width:0;height:0;border:10px solid transparent;border-top-color:#eee;position:absolute;left:50%;margin-left:-10px;bottom:-23px;}
+.tem30-banner .swiper_icon1{width:100%;height:100%;overflow:hidden;position:relative;}
+.tem30-banner .swiper_icon2{position:absolute;left:0;top:0;width:9999999px;height:100%;transition:0.3s;}
+.tem30-banner .swiper_icon img{width:200px;height:100%;float:left;}
+.tem30-banner .swiper-pagination .swiper-pagination-bullet{width:10px;height:10px;}
+.tem30-banner .swiper-button-prev.swiper-button-black,
+.tem30-banner .swiper-button-next.swiper-button-black{border:0;background:none;width:8.5%;height:100%;top:0;margin:0;z-index:10;}
+.tem30-banner .swiper-button-prev.swiper-button-black{left:0;border-right:30px solid #fff;}
+.tem30-banner .swiper-button-next.swiper-button-black{right:0;border-left:30px solid #fff;}
+.tem30-banner .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active{margin-bottom:-3px;opacity:0.6;width:16px;height:16px;border:5px solid rgba(255,255,255,0.6);}
+@media (max-width:768px){
+.tem30-banner .swiper-button-prev,
+.tem30-banner .swiper-button-next{font-size:40px;text-align:center;width:40px;height:70px;margin-top:-35px;line-height:70px;}
+.tem30-banner .swiper-button-prev,
+.tem30-banner .swiper-button-next,
+.tem30-banner .swiper-pagination,
+.tem30-banner .swiper_icon{display:none!important;}
+}

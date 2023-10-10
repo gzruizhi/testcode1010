@@ -1,0 +1,14 @@
+/*tem34-service*/
+.tem34-service.tem77-irregular .tem77-irregular3-1 a{color:inherit;}
+.tem34-service.tem77-irregular .rou2:after,
+.tem34-service.tem77-irregular .rou2:before,
+.tem34-service.tem77-irregular .rou1:before,
+.tem34-service.tem77-irregular .rou1:after{border-color:inherit;}
+.tem34-service.tem77-irregular .rou{padding-top:20px;}
+@media (max-width: 768px){
+    .tem34-service .container,
+    .tem34-service.full-screen-spacing .container.full-screen{padding-left: 3%!important;padding-right: 3%!important}
+}
+@media (max-width: 480px){
+    .tem34-service.tem77-irregular .rou{max-width: 100%;width: 100%;padding:10px 0;}
+}

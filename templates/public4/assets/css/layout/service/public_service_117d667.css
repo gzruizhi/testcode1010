@@ -1,0 +1,41 @@
+.tem117-service {background-color:#f0f0f0;}
+.tem117-service .items .item{height:100%;border-color:#3198d6;-webkit-transition:all .5s;-moz-transition:all .5s;-ms-transition:all .5s;-o-transition:all .5s;transition:all .5s;-webkit-box-shadow:3px 3px 3px 0 rgba(0,0,0,0);-moz-box-shadow:3px 3px 3px 0 rgba(0,0,0,0);box-shadow:3px 3px 3px 0 rgba(0,0,0,0);cursor:pointer;}
+.tem117-service.content-right .items .item{flex-direction: row-reverse;}
+.tem117-service .items{margin:15px 0;}
+.tem117-service .itemIcon,
+.tem117-service .itemText{padding:0!important;border-color:inherit;}
+.tem117-service .itemIcon{position: relative;overflow: hidden;border-color:inherit;}
+.tem117-service .itemIcon::before{position: absolute;content: "";border:999px solid;border-color:inherit;left:0;top:0;}
+.tem117-service .items:nth-of-type(2) .item{border-color:#17bc99;}
+.tem117-service .items:nth-of-type(3) .item{border-color:#9a58b4;}
+.tem117-service .items .itemIcon{color:#fff;font-size:2rem;text-align:center;}
+.tem117-service .items .itemIcon [class^="icon"]{display:block;position:relative;top:50%;margin-top:-0.5em;}
+.tem117-service .items .text{color:#000;padding:20px 5%;background-color:#fff;height: 100%;border-color:inherit;}
+.tem117-service .items .itemText .title{position:relative;font-size:18px;padding-bottom:10px;border-color:inherit;}
+.tem117-service .items .itemText .title::before{position:absolute;bottom:0;left:0;content:"";width:40px;border-bottom:2px solid;border-color:inherit}
+.tem117-service .items .itemText .description{opacity:.4;line-height:180%;margin-top:15px;}
+/* hover */
+@media (min-width:1200px){
+    .tem117-service .items .item:hover{-webkit-box-shadow:3px 3px 3px 0 rgba(0,0,0,0.2);-moz-box-shadow:3px 3px 3px 0 rgba(0,0,0,0.2);box-shadow:3px 3px 3px 0 rgba(0,0,0,0.2);}
+}
+/* media */
+@media (max-width:1199px){
+    .tem117-service .container{width:100%;}
+}
+@media (max-width:991px){
+    .tem117-service .itemIcon{height:auto;}
+    .tem117-service .itemText{height:100%;}
+    .tem117-service .items .itemIcon{padding:10px 0 !important;}
+    .tem117-service .items .itemIcon [class^="icon"]{top:0;margin-top:0;}
+    .tem117-service .items .itemText{padding:10px .5%;}
+    .tem117-service .items .text{padding:3% !important;}
+    .tem117-service .item{width:100% !important;overflow: hidden;}
+}
+@media (max-width:768px){
+    .tem117-service .container{padding-left:3%!important;padding-right:3%!important;}
+    .tem117-service .items{margin:8px 0;}
+    .tem117-service .items .itemIcon{font-size: 24px;}
+}
+@media (max-width:480px){
+    .tem117-service .items{max-width: 100%;width: 100%;}
+}

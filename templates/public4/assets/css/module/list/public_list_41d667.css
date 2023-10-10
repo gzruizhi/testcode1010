@@ -1,0 +1,50 @@
+.effect-grid41 .interval{padding:0 7px}
+.effect-grid41 .col-xs-6{padding:8px}
+.effect-grid41 .col-lg-2:nth-of-type(6n+1),
+.effect-grid41 .col-lg-3:nth-of-type(4n+1),
+.effect-grid41 .col-lg-4:nth-of-type(3n+1),
+.effect-grid41 .col-lg-6:nth-of-type(2n+1){clear:both}
+.effect-grid41 .product-li .images{position:relative}
+.effect-grid41 .product-li .images::after{content:"";position:absolute;left:0;top:0;width:100%;height:100%;opacity:0;transition:all .3s ease 0s;z-index:1}
+.effect-grid41 .product-li:hover .images::after{opacity:.8}
+.effect-grid41 .product-li .portfolio-icon{position:absolute;width:100%;height:46px;top:50%;margin-top:-10px;left:0;transition:all .3s ease 0s;z-index:2;text-align:center;opacity:0}
+.effect-grid41 .product-li:hover .portfolio-icon{opacity:1;margin-top:-23px}
+.effect-grid41 .product-li .portfolio-icon a{width:46px;height:46px;line-height:46px;margin:0 6px;border-radius:50%;background:#fff;color:#232323;display:inline-block;font-size:22px;text-align:center;transition:all .2s ease 0s;border:2px solid #fff}
+.effect-grid41 .product-li .portfolio-icon a:hover{background:0;transform:scale(1.1);color:#fff}
+.effect-grid41 .product-li img{width:100%}
+.effect-grid41 .product-li .images .discountTag{position: absolute; left:0; top:0; color: #fff; padding: 0 3px;display: inline-block;font-size:14px;}
+.effect-grid41 .product-li:hover .images .discountTag{display:none;}
+.effect-grid41 .product-li .text{width:100%;display:block;background:#fff;padding:20px 10px;color:#232323;text-align:center}
+.effect-grid41 .product-li .text .title{margin-bottom:5px;font-weight:600}
+.effect-grid41 .product-li .text .description{font-size:12px;line-height:180%;opacity:.5}
+.effect-grid41 .pro-show{width:100%;height:100%;background:rgba(0,0,0,.5);transition:all .5s;visibility:hidden;opacity:0;display:block}
+.effect-grid41 .pro-show.active{visibility:visible;opacity:1}
+.effect-grid41 .pro-show span.icon-clear{width:40px;height:40px;line-height:40px;font-size:40px;cursor:pointer;position:absolute;top:20px;right:20px;text-align:center;opacity:.5;z-index:5}
+.effect-grid41 .pro-show .swiper-container{width:100%;height:100%;background:rgba(0,0,0,.9);padding:40px 0}
+.effect-grid41 .pro-show .swiper-container img{max-width:100%;height:100%;margin:0 auto;display:block;width:auto}
+.effect-grid41 .pro-show .swiper-button-prev,
+.effect-grid41 .pro-show .swiper-container-rtl .swiper-button-next{background-image:url(../../../images/zuojiantou.png);left:20px}
+.effect-grid41 .pro-show .swiper-button-next,
+.effect-grid41 .pro-show .swiper-container-rtl .swiper-button-prev{background-image:url(../../../images/youjiantou.png);right:20px}
+.effect-grid41 .pro-show .swiper-button-next,
+.effect-grid41 .pro-show .swiper-button-prev{width:32px;height:32px;opacity:.7;transition:all .3s;background-size:100% auto}
+.effect-grid41 .pro-show .swiper-button-next:hover,
+.effect-grid41 .pro-show .swiper-button-prev:hover{opacity:1}
+.effect-grid41 .pro-show .swiper-container-horizontal>.swiper-pagination-bullets,
+.effect-grid41 .pro-show .swiper-pagination-custom,
+.effect-grid41 .pro-show .swiper-pagination-fraction{color:#fff}
+.effect-grid41 .pro_price{padding-top:15px}
+.effect-grid41 .pro_price i{font-style:normal}
+.effect-grid41 .pro_price b{font-weight:normal}
+.effect-grid41 .pro_price .price_origin{opacity:.5}
+.effect-grid41 .swiper-slide{opacity:0!important;display:flex;align-items:center}
+.effect-grid41 .swiper-slide.swiper-slide-active{opacity:1!important}@media(max-width:768px){.effect-grid41 .product-li .text{padding:15px 10px}}
+
+.effect-grid41 .tem0-list ul li,
+.effect-grid41 .tem0-list ul li a{height:140px}
+.effect-grid41 .tem0-list ul li a .image{width:130px;height:130px}
+.effect-grid41 .tem0-list ul li a .text{padding:0 15px 0 160px}
+.effect-grid41 .tem0-list ul li a .title{margin-top:0}
+
+/* No Data */
+.effect-grid41 .noData{padding:10% 0;font-size:18px;border:1px dashed #ccc;color:#888;}

@@ -1,0 +1,239 @@
+.tem94-main-products{background-color: #f0f0f0;}
+.tem94-main-products .items{padding: 0!important;background-color: #fff;overflow: hidden;}
+.tem94-main-products .items .item{display: flex;display: -webkit-flex;align-items: center;height: 100%;align-items: center;flex-wrap: wrap;}
+.tem94-main-products.content-right .items .item{flex-direction: row-reverse;}
+.tem94-main-products .items .image{width: 49.932%;height: 100%;background-size: cover;background-position: center center;transition: .5s;-moz-transition: .5s;-webkit-transition: .5s;}
+.tem94-main-products .item:hover .image{height: 120%}
+.tem94-main-products .items img{width: 100%;visibility: hidden;}
+.tem94-main-products .text{color:#333;padding: 5%;height:100%;width: 49.932%;transition: .5s;-moz-transition: .5s;-webkit-transition: .5s;display: flex;display: -webkit-flex;align-content:center;flex-wrap: wrap;}
+.tem94-main-products .item:hover .text{color:#fff!important;}
+.tem94-main-products .text .title{margin-bottom:10px;}
+.tem94-main-products .text .description{opacity: .7;line-height: 170%;}
+.tem94-main-products .text .more{margin-top: 20px;width: 100%;color:inherit;}
+.tem94-main-products .text .btn{margin:auto;background: none;color:inherit;padding: 8px 20px;}
+.tem94-main-products .item:hover .text .btn{box-shadow: 0 0 10px rgba(255,255,255,.3);border-color:#fff;}
+@media(min-width:1200px){
+    /*2列*/
+    .tem94-main-products .col-lg-6:nth-of-type(4n) .item,
+    .tem94-main-products .col-lg-6:nth-of-type(4n-1) .item,
+    /*3列*/
+    .tem94-main-products .col-lg-4:nth-of-type(6n) .item,
+    .tem94-main-products .col-lg-4:nth-of-type(6n-1) .item,
+    .tem94-main-products .col-lg-4:nth-of-type(6n-2) .item,
+    /*4列*/
+    .tem94-main-products .col-lg-3:nth-of-type(8n) .item,
+    .tem94-main-products .col-lg-3:nth-of-type(8n-1) .item,
+    .tem94-main-products .col-lg-3:nth-of-type(8n-2) .item,
+    .tem94-main-products .col-lg-3:nth-of-type(8n-3) .item,
+    /*5列*/
+    .tem94-main-products .col-lg-2_4:nth-of-type(10n) .item,
+    .tem94-main-products .col-lg-2_4:nth-of-type(10n-1) .item,
+    .tem94-main-products .col-lg-2_4:nth-of-type(10n-2) .item,
+    .tem94-main-products .col-lg-2_4:nth-of-type(10n-3) .item,
+    .tem94-main-products .col-lg-2_4:nth-of-type(10n-4) .item,
+    /*6列*/
+    .tem94-main-products .col-lg-2:nth-of-type(12n) .item,
+    .tem94-main-products .col-lg-2:nth-of-type(12n-1) .item,
+    .tem94-main-products .col-lg-2:nth-of-type(12n-2) .item,
+    .tem94-main-products .col-lg-2:nth-of-type(12n-3) .item,
+    .tem94-main-products .col-lg-2:nth-of-type(12n-4) .item,
+    .tem94-main-products .col-lg-2:nth-of-type(12n-5) .item{flex-direction: row-reverse;}
+    /*右对齐*/
+    /*2列*/
+    .tem94-main-products.content-right .col-lg-6:nth-of-type(4n) .item,
+    .tem94-main-products.content-right .col-lg-6:nth-of-type(4n-1) .item,
+    /*3列*/
+    .tem94-main-products.content-right .col-lg-4:nth-of-type(6n) .item,
+    .tem94-main-products.content-right .col-lg-4:nth-of-type(6n-1) .item,
+    .tem94-main-products.content-right .col-lg-4:nth-of-type(6n-2) .item,
+    /*4列*/
+    .tem94-main-products.content-right .col-lg-3:nth-of-type(8n) .item,
+    .tem94-main-products.content-right .col-lg-3:nth-of-type(8n-1) .item,
+    .tem94-main-products.content-right .col-lg-3:nth-of-type(8n-2) .item,
+    .tem94-main-products.content-right .col-lg-3:nth-of-type(8n-3) .item,
+    /*5列*/
+    .tem94-main-products.content-right .col-lg-2_4:nth-of-type(10n) .item,
+    .tem94-main-products.content-right .col-lg-2_4:nth-of-type(10n-1) .item,
+    .tem94-main-products.content-right .col-lg-2_4:nth-of-type(10n-2) .item,
+    .tem94-main-products.content-right .col-lg-2_4:nth-of-type(10n-3) .item,
+    .tem94-main-products.content-right .col-lg-2_4:nth-of-type(10n-4) .item,
+    /*6列*/
+    .tem94-main-products.content-right .col-lg-2:nth-of-type(12n) .item,
+    .tem94-main-products.content-right .col-lg-2:nth-of-type(12n-1) .item,
+    .tem94-main-products.content-right .col-lg-2:nth-of-type(12n-2) .item,
+    .tem94-main-products.content-right .col-lg-2:nth-of-type(12n-3) .item,
+    .tem94-main-products.content-right .col-lg-2:nth-of-type(12n-4) .item,
+    .tem94-main-products.content-right .col-lg-2:nth-of-type(12n-5) .item{flex-direction: row;}
+}
+@media(min-width:992px) and (max-width:1199px){
+    /*2列*/
+    .tem94-main-products .col-md-6:nth-of-type(4n) .item,
+    .tem94-main-products .col-md-6:nth-of-type(4n-1) .item,
+    /*3列*/
+    .tem94-main-products .col-md-4:nth-of-type(6n) .item,
+    .tem94-main-products .col-md-4:nth-of-type(6n-1) .item,
+    .tem94-main-products .col-md-4:nth-of-type(6n-2) .item,
+    /*4列*/
+    .tem94-main-products .col-md-3:nth-of-type(8n) .item,
+    .tem94-main-products .col-md-3:nth-of-type(8n-1) .item,
+    .tem94-main-products .col-md-3:nth-of-type(8n-2) .item,
+    .tem94-main-products .col-md-3:nth-of-type(8n-3) .item,
+    /*5列*/
+    .tem94-main-products .col-md-2_4:nth-of-type(10n) .item,
+    .tem94-main-products .col-md-2_4:nth-of-type(10n-1) .item,
+    .tem94-main-products .col-md-2_4:nth-of-type(10n-2) .item,
+    .tem94-main-products .col-md-2_4:nth-of-type(10n-3) .item,
+    .tem94-main-products .col-md-2_4:nth-of-type(10n-4) .item,
+    /*6列*/
+    .tem94-main-products .col-md-2:nth-of-type(12n) .item,
+    .tem94-main-products .col-md-2:nth-of-type(12n-1) .item,
+    .tem94-main-products .col-md-2:nth-of-type(12n-2) .item,
+    .tem94-main-products .col-md-2:nth-of-type(12n-3) .item,
+    .tem94-main-products .col-md-2:nth-of-type(12n-4) .item,
+    .tem94-main-products .col-md-2:nth-of-type(12n-5) .item{flex-direction: row-reverse;}
+    /*右对齐*/
+    /*2列*/
+    .tem94-main-products.content-right .col-md-6:nth-of-type(4n) .item,
+    .tem94-main-products.content-right .col-md-6:nth-of-type(4n-1) .item,
+    /*3列*/
+    .tem94-main-products.content-right .col-md-4:nth-of-type(6n) .item,
+    .tem94-main-products.content-right .col-md-4:nth-of-type(6n-1) .item,
+    .tem94-main-products.content-right .col-md-4:nth-of-type(6n-2) .item,
+    /*4列*/
+    .tem94-main-products.content-right .col-md-3:nth-of-type(8n) .item,
+    .tem94-main-products.content-right .col-md-3:nth-of-type(8n-1) .item,
+    .tem94-main-products.content-right .col-md-3:nth-of-type(8n-2) .item,
+    .tem94-main-products.content-right .col-md-3:nth-of-type(8n-3) .item,
+    /*5列*/
+    .tem94-main-products.content-right .col-md-2_4:nth-of-type(10n) .item,
+    .tem94-main-products.content-right .col-md-2_4:nth-of-type(10n-1) .item,
+    .tem94-main-products.content-right .col-md-2_4:nth-of-type(10n-2) .item,
+    .tem94-main-products.content-right .col-md-2_4:nth-of-type(10n-3) .item,
+    .tem94-main-products.content-right .col-md-2_4:nth-of-type(10n-4) .item,
+    /*6列*/
+    .tem94-main-products.content-right .col-md-2:nth-of-type(12n) .item,
+    .tem94-main-products.content-right .col-md-2:nth-of-type(12n-1) .item,
+    .tem94-main-products.content-right .col-md-2:nth-of-type(12n-2) .item,
+    .tem94-main-products.content-right .col-md-2:nth-of-type(12n-3) .item,
+    .tem94-main-products.content-right .col-md-2:nth-of-type(12n-4) .item,
+    .tem94-main-products.content-right .col-md-2:nth-of-type(12n-5) .item{flex-direction: row;}
+}
+
+@media(min-width:768px) and (max-width:991px){
+    /*2列*/
+    .tem94-main-products .col-sm-6:nth-of-type(4n) .item,
+    .tem94-main-products .col-sm-6:nth-of-type(4n-1) .item,
+    /*3列*/
+    .tem94-main-products .col-sm-4:nth-of-type(6n) .item,
+    .tem94-main-products .col-sm-4:nth-of-type(6n-1) .item,
+    .tem94-main-products .col-sm-4:nth-of-type(6n-2) .item,
+    /*4列*/
+    .tem94-main-products .col-sm-3:nth-of-type(8n) .item,
+    .tem94-main-products .col-sm-3:nth-of-type(8n-1) .item,
+    .tem94-main-products .col-sm-3:nth-of-type(8n-2) .item,
+    .tem94-main-products .col-sm-3:nth-of-type(8n-3) .item,
+    /*5列*/
+    .tem94-main-products .col-sm-2_4:nth-of-type(10n) .item,
+    .tem94-main-products .col-sm-2_4:nth-of-type(10n-1) .item,
+    .tem94-main-products .col-sm-2_4:nth-of-type(10n-2) .item,
+    .tem94-main-products .col-sm-2_4:nth-of-type(10n-3) .item,
+    .tem94-main-products .col-sm-2_4:nth-of-type(10n-4) .item,
+    /*6列*/
+    .tem94-main-products .col-sm-2:nth-of-type(12n) .item,
+    .tem94-main-products .col-sm-2:nth-of-type(12n-1) .item,
+    .tem94-main-products .col-sm-2:nth-of-type(12n-2) .item,
+    .tem94-main-products .col-sm-2:nth-of-type(12n-3) .item,
+    .tem94-main-products .col-sm-2:nth-of-type(12n-4) .item,
+    .tem94-main-products .col-sm-2:nth-of-type(12n-5) .item{flex-direction: row-reverse;}
+    /*右对齐*/
+    /*2列*/
+    .tem94-main-products.content-right .col-sm-6:nth-of-type(4n) .item,
+    .tem94-main-products.content-right .col-sm-6:nth-of-type(4n-1) .item,
+    /*3列*/
+    .tem94-main-products.content-right .col-sm-4:nth-of-type(6n) .item,
+    .tem94-main-products.content-right .col-sm-4:nth-of-type(6n-1) .item,
+    .tem94-main-products.content-right .col-sm-4:nth-of-type(6n-2) .item,
+    /*4列*/
+    .tem94-main-products.content-right .col-sm-3:nth-of-type(8n) .item,
+    .tem94-main-products.content-right .col-sm-3:nth-of-type(8n-1) .item,
+    .tem94-main-products.content-right .col-sm-3:nth-of-type(8n-2) .item,
+    .tem94-main-products.content-right .col-sm-3:nth-of-type(8n-3) .item,
+    /*5列*/
+    .tem94-main-products.content-right .col-sm-2_4:nth-of-type(10n) .item,
+    .tem94-main-products.content-right .col-sm-2_4:nth-of-type(10n-1) .item,
+    .tem94-main-products.content-right .col-sm-2_4:nth-of-type(10n-2) .item,
+    .tem94-main-products.content-right .col-sm-2_4:nth-of-type(10n-3) .item,
+    .tem94-main-products.content-right .col-sm-2_4:nth-of-type(10n-4) .item,
+    /*6列*/
+    .tem94-main-products.content-right .col-sm-2:nth-of-type(12n) .item,
+    .tem94-main-products.content-right .col-sm-2:nth-of-type(12n-1) .item,
+    .tem94-main-products.content-right .col-sm-2:nth-of-type(12n-2) .item,
+    .tem94-main-products.content-right .col-sm-2:nth-of-type(12n-3) .item,
+    .tem94-main-products.content-right .col-sm-2:nth-of-type(12n-4) .item,
+    .tem94-main-products.content-right .col-sm-2:nth-of-type(12n-5) .item{flex-direction: row;}
+}
+
+@media(max-width:767px){
+    .tem94-main-products .items .item{flex-direction: row-reverse;}
+    /*2列*/
+    .tem94-main-products .col-xs-6:nth-of-type(4n) .item,
+    .tem94-main-products .col-xs-6:nth-of-type(4n-1) .item,
+    /*3列*/
+    .tem94-main-products .col-xs-4:nth-of-type(6n) .item,
+    .tem94-main-products .col-xs-4:nth-of-type(6n-1) .item,
+    .tem94-main-products .col-xs-4:nth-of-type(6n-2) .item,
+    /*4列*/
+    .tem94-main-products .col-xs-3:nth-of-type(8n) .item,
+    .tem94-main-products .col-xs-3:nth-of-type(8n-1) .item,
+    .tem94-main-products .col-xs-3:nth-of-type(8n-2) .item,
+    .tem94-main-products .col-xs-3:nth-of-type(8n-3) .item,
+    /*5列*/
+    .tem94-main-products .col-xs-2_4:nth-of-type(10n) .item,
+    .tem94-main-products .col-xs-2_4:nth-of-type(10n-1) .item,
+    .tem94-main-products .col-xs-2_4:nth-of-type(10n-2) .item,
+    .tem94-main-products .col-xs-2_4:nth-of-type(10n-3) .item,
+    .tem94-main-products .col-xs-2_4:nth-of-type(10n-4) .item,
+    /*6列*/
+    .tem94-main-products .col-xs-2:nth-of-type(12n) .item,
+    .tem94-main-products .col-xs-2:nth-of-type(12n-1) .item,
+    .tem94-main-products .col-xs-2:nth-of-type(12n-2) .item,
+    .tem94-main-products .col-xs-2:nth-of-type(12n-3) .item,
+    .tem94-main-products .col-xs-2:nth-of-type(12n-4) .item,
+    .tem94-main-products .col-xs-2:nth-of-type(12n-5) .item{flex-direction: row-reverse;}
+    /*右对齐*/
+    /*2列*/
+    .tem94-main-products.content-right .col-xs-6:nth-of-type(4n) .item,
+    .tem94-main-products.content-right .col-xs-6:nth-of-type(4n-1) .item,
+    /*3列*/
+    .tem94-main-products.content-right .col-xs-4:nth-of-type(6n) .item,
+    .tem94-main-products.content-right .col-xs-4:nth-of-type(6n-1) .item,
+    .tem94-main-products.content-right .col-xs-4:nth-of-type(6n-2) .item,
+    /*4列*/
+    .tem94-main-products.content-right .col-xs-3:nth-of-type(8n) .item,
+    .tem94-main-products.content-right .col-xs-3:nth-of-type(8n-1) .item,
+    .tem94-main-products.content-right .col-xs-3:nth-of-type(8n-2) .item,
+    .tem94-main-products.content-right .col-xs-3:nth-of-type(8n-3) .item,
+    /*5列*/
+    .tem94-main-products.content-right .col-xs-2_4:nth-of-type(10n) .item,
+    .tem94-main-products.content-right .col-xs-2_4:nth-of-type(10n-1) .item,
+    .tem94-main-products.content-right .col-xs-2_4:nth-of-type(10n-2) .item,
+    .tem94-main-products.content-right .col-xs-2_4:nth-of-type(10n-3) .item,
+    .tem94-main-products.content-right .col-xs-2_4:nth-of-type(10n-4) .item,
+    /*6列*/
+    .tem94-main-products.content-right .col-xs-2:nth-of-type(12n) .item,
+    .tem94-main-products.content-right .col-xs-2:nth-of-type(12n-1) .item,
+    .tem94-main-products.content-right .col-xs-2:nth-of-type(12n-2) .item,
+    .tem94-main-products.content-right .col-xs-2:nth-of-type(12n-3) .item,
+    .tem94-main-products.content-right .col-xs-2:nth-of-type(12n-4) .item,
+    .tem94-main-products.content-right .col-xs-2:nth-of-type(12n-5) .item{flex-direction: row;}
+    .tem94-main-products .col-xs-12:nth-of-type(2n) .item{flex-direction: row;}
+    .tem94-main-products .text{padding: 3%;}
+}
+@media (max-width: 768px){
+    .tem94-main-products .container{padding-left: 3%!important;padding-right: 3%!important;}
+    .tem94-main-products.full-screen-spacing .container.full-screen{padding-left: 0!important;padding-right: 0!important;}
+}
+@media (max-width: 360px){
+    .tem94-main-products .text,
+    .tem94-main-products .items .image{width: 100%;height: auto;}
+}

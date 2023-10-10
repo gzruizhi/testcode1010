@@ -1,0 +1,11 @@
+.tem320-irregular a{color:inherit;}
+.tem320-irregular .text{padding:4vw 2vw!important;display:flex;display:-webkit-flex;align-items:center;}
+.tem320-irregular .title{font-size:30px;font-weight:bold;padding-bottom:2vw;line-height:1.2;}
+.tem320-irregular .image{padding:0!important;overflow:hidden;}
+.tem320-irregular.content-left .item:nth-child(odd) a,
+.tem320-irregular.content-right .item:nth-child(even) a{flex-direction:row-reverse;}
+.tem320-irregular .image img{min-width:100%;}
+@media(max-width:991px){
+    .tem320-irregular .title{font-size:16px;}
+}
+

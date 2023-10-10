@@ -1,0 +1,32 @@
+/*tem07-title*/
+.tem07-title{border-bottom:1px solid #e8e8e8;padding:20px 0;width:100%;}
+.tem07-title .title-header{float:left;padding:0 15px;}
+.tem07-title .title{display:inline-block;position:relative;z-index:1;color:#555;border-color:#000;}
+.tem07-title .subtitle{font-size:14px;line-height:30px;min-height:20px;color:#999;display:inline-block;margin-left:5px;position:relative;z-index:1;padding-left:15px;}
+.tem07-title .subtitle::before{content:"/";left:0;position:absolute;top:0;color:#ccc;}
+.tem07-title .more{float:right;}
+.tem07-title .more a{margin-left:5px;padding:18px 15px 0 15px;font-size:13px;display:block;color:#aaa;}
+.tem07-title .more:hover a{color:#333;}
+@media (max-width: 768px){
+    .tem07-title .tem07-list-title .title-header{padding-left: 2%!important;padding-right: 2%!important;}
+    .tem07-title.full-screen-spacing .full-screen .title-header{padding-left: 3%!important;padding-right: 3%!important;}
+}
+/*tem07-list-title*/
+.mainlist .tem07-list-title,
+.maindetail .tem07-list-title{border-bottom:1px solid #e8e8e8;padding:15px 0;width:100%;overflow:hidden;}
+.mainlist .tem07-list-title  .title-header-header,
+.maindetail .tem07-list-title .title-header{width:100%;}
+.mainlist .tem07-list-title .title,
+.maindetail .tem07-list-title .title{display:inline-block;position:relative;z-index:1;color:#555;}
+.mainlist .tem07-list-title .title::after,
+.maindetail .tem07-list-title .title::after{height:2px;content:"";left:0;position:absolute;bottom:-18px;width:45px;background-color:#666;}
+.mainlist .tem07-list-title .subtitle,
+.maindetail .tem07-list-title .subtitle{line-height:30px;color:#999;display:inline-block;margin-left:5px;position:relative;z-index:1;padding-left:15px;}
+.mainlist .tem07-list-title .subtitle::before,
+.maindetail .tem07-list-title .subtitle::before{content:"/";left:0;position:absolute;top:0;color:#ccc;}
+.mainlist .tem07-list-title .more,
+.maindetail .tem07-list-title .more{float:right;}
+.mainlist .tem07-list-title .more a,
+.maindetail .tem07-list-title .more a{margin-left:5px;padding:18px 15px 0 15px;font-size:13px;display:block;color:#aaa;}
+.mainlist .tem07-list-title .more:hover a,
+.maindetail .tem07-list-title .more:hover a{color:#333;}

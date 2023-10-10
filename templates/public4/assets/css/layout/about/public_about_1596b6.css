@@ -1,0 +1,44 @@
+/*tem15-about*/
+.tem15-about{min-height:400px;}
+.tem15-about .col-md-6{padding:0;}
+.tem15-about.content-left .col-md-6:nth-child(odd),
+.tem15-about.content-right .col-md-6:nth-child(odd){margin:40px -40px 0 40px;box-shadow:2px 2px 20px rgba(0,0,0,0.175);z-index:2;} 
+.tem15-about.content-right .col-md-6:nth-child(odd){margin:40px 40px 0 -40px;}
+.tem15-about.content-left .col-md-6:nth-child(even),
+.tem15-about.content-right .col-md-6:nth-child(even){margin:0;z-index:1;} 
+.tem15-about .titlediv{margin-bottom:25px;} 
+.tem15-about h2,
+.tem15-about .h2{margin-top:0;margin-bottom:5px;font-size:22px;max-height:25px;overflow:hidden;}
+.tem15-about h5,
+.tem15-about .h5{margin:0;font-size:14px;font-weight:300;max-height:16px;overflow:hidden;}
+.tem15-about img{width:100%;}
+.tem15-about .infobar{padding:40px 70px;background-color:#f6f6f6;}
+.tem15-about .about_text{line-height:25px;max-height:850px;overflow:auto;}
+.home_page .tem15-about .about_text{line-height:25px;max-height:350px;overflow:hidden;}
+.tem15-about .about_btn{padding:30px 0 10px;text-transform:uppercase;color:#999;}
+.tem15-about .about_btn .button-box{padding:12px 8%;border:1px solid #ddd;color:inherit;font-size:14px;transition:all 0.6s ease 0s;-moz-transition:all 0.6s ease 0s;-ms-transition:all 0.6s ease 0s;-o-transition:all 0.6s ease 0s;-webkit-transition:all 0.6s ease 0s;display:inline-block;position:relative;}
+.tem15-about .about_btn .button-box:hover{color:#fff;z-index:1;}
+.tem15-about .about_btn .button-box::after{content:"";width:0;height:100%;position:absolute;z-index:1;transition:all 0.4s ease-out 0s;left:0;top:0;}
+.tem15-about .about_btn .button-box:hover::after{width:100%;z-index:-1;}
+@media (max-width:1280px){
+.tem15-about .about_text{max-height:150px;}
+.tem15-about .about_btn{padding:30px 0 0;}
+}
+@media (max-width:980px){
+.tem15-about h2,
+.tem15-about .h2{font-size:18px;}
+.tem15-about .titlediv{margin-bottom:15px;} 
+.tem15-about.content-left .col-md-6:nth-child(odd){margin:30px -30px 0 30px;}
+.tem15-about.content-right .col-md-6:nth-child(odd){margin:30px 30px 0 -30px;}
+.tem15-about .infobar{padding:30px 60px;}
+.tem15-about .about_text{max-height:100px;}
+.tem15-about .about_btn{padding:15px 0 0px;}
+}
+@media (max-width:768px){
+.tem15-about .container{padding-left: 2%!important;padding-right: 2%!important}
+.tem15-about.full-screen-spacing .container{padding-left: 0!important;padding-right: 0!important}
+.tem15-about.content-left .col-md-6:nth-child(odd),
+.tem15-about.content-right .col-md-6:nth-child(odd){margin:0;}
+.tem15-about .infobar{padding:15px;}
+.tem15-about .about_btn .button-box{padding:8px 8%;}
+}

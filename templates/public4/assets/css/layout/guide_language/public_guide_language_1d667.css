@@ -1,0 +1,13 @@
+.tem01-guide-language{position:relative;text-align:center;}
+.tem01-guide-language h2,
+.tem01-guide-language .h2{margin:0 0 15px;}
+.tem01-guide-language h5,
+.tem01-guide-language .h5{color:#333;font-size:16px;line-height:145%;margin:25px 0 15px;} 
+.tem01-guide-language .tem27-irregular_text{color:#888;font-size:14px;line-height:185%;}
+@media (max-width: 768px){
+    .tem01-guide-language .container,
+    .tem01-guide-language.full-screen-spacing .container.full-screen{padding-left: 3%!important;padding-right: 3%!important}
+    .tem01-guide-language h5,
+    .tem01-guide-language .h5{font-size:16px;} 
+    .tem01-guide-language{position:relative;text-align:center;padding:0 15px;}
+}

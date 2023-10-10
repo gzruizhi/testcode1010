@@ -1,0 +1,6 @@
+.tem250-irregular img{display:block;}
+.tem250-irregular .image{position:relative;overflow:hidden;}
+.tem250-irregular .box:first-child{position:absolute;top:0;left:0;width:50%;height:100%;overflow:hidden;}
+.tem250-irregular .box:first-child.bottom{top:initial;bottom:0;}
+.tem250-irregular .box:first-child img{height:100%;max-width:none;}
+.tem250-irregular .box:nth-child(2) img{width:100%;}

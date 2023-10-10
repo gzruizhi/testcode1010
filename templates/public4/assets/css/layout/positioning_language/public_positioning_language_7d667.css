@@ -1,0 +1,16 @@
+.tem06-positioning-language.tem07-positioning-language .box{ height: 0; border-radius: 100%; border-top-right-radius: 10%; padding: 0; padding-top: 50%; position: relative; }
+.tem06-positioning-language.tem07-positioning-language .box:hover{ border-top-right-radius: 30%; border-bottom-left-radius: 80%; }
+.tem06-positioning-language.tem07-positioning-language .block,
+.tem06-positioning-language.tem07-positioning-language .text{ padding: 0; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%) scale(1.2); }
+.tem06-positioning-language.tem07-positioning-language .block{ width: 100%; height: 100%; transform: translate(-50%,-50%) scale(.9); }
+@media(max-width: 991px){
+    .tem06-positioning-language.tem07-positioning-language .box{ padding-top: 80%; }
+}
+@media(max-width: 768px){
+    .tem06-positioning-language .container{padding-left: 3%!important;padding-right: 3%!important}
+    .tem06-positioning-language.full-screen-spacing .container.full-screen{padding-left: 0!important;padding-right: 0!important}
+}
+@media(max-width: 480px){
+    .tem06-positioning-language.tem07-positioning-language .text{ transform: translate(-50%,-50%) scale(1.1); }
+    .tem06-positioning-language.tem07-positioning-language .box{ padding-top: 100%; }
+}

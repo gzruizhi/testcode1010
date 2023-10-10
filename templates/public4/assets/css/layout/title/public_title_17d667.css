@@ -1,0 +1,30 @@
+/*tem17-title*/
+.tem17-title{text-align:center;padding:0 15px;width:100%;overflow:hidden;}
+.tem17-title .title .title-border{display:inline-block;position:relative;}
+.tem17-title .title .title-border::before{position:absolute;content:"";width:60px;height:1px;border-bottom:1px solid;border-color:inherit;left:-75px;top:50%;}
+.tem17-title .title .title-border::after{position:absolute;content:"";width:60px;height:1px;border-bottom:1px solid;border-color:inherit;right:-75px;top:50%;}
+.tem17-title .subtitle{font-size:12px;width:100%;text-align:center;margin:10px 0;color:#999;}
+.tem17-title .more{display:none;}
+@media (max-width:480px){
+    .tem17-title .title .title-border::before{left:-40px;width:30px;}
+    .tem17-title .title .title-border::after{right:-40px;width:30px;}
+}
+/*tem17-list-title*/
+.mainlist .tem17-list-title,
+.maindetail .tem17-list-title{text-align:center;width:100%;overflow:hidden;padding:15px;}
+.mainlist .tem17-list-title .title .title-border,
+.maindetail .tem17-list-title .title .title-border{display:inline-block;position:relative;color:#333;}
+.mainlist .tem17-list-title .title .title-border::before,
+.maindetail .tem17-list-title .title .title-border::before{position:absolute;content:"";width:60px;height:1px;background-color:#333;left:-75px;top:50%;}
+.mainlist .tem17-list-title .title .title-border::after,
+.maindetail .tem17-list-title .title .title-border::after{position:absolute;content:"";width:60px;height:1px;background-color:#333;right:-75px;top:50%;}
+.mainlist .tem17-list-title .subtitle,
+.maindetail .tem17-list-title .subtitle{width:100%;text-align:center;margin:10px 0;color:#999;}
+.mainlist .tem17-list-title .more,
+.maindetail .tem17-list-title .more{display:none;}
+@media (max-width:480px){
+    .mainlist .tem17-list-title .title .title-border::before,
+    .maindetail .tem17-list-title .title .title-border::before{left:-40px;width:30px;}
+    .mainlist .tem17-list-title .title .title-border::after,
+    .maindetail .tem17-list-title .title .title-border::after{right:-40px;width:30px;}
+}

@@ -1,0 +1,4 @@
+.tem11-side-picture-text{margin:10px 0 20px}
+.tem11-side-picture-text .title-header{width:100%;position:relative;overflow:hidden}
+.tem11-side-picture-text .title-header::after{position:absolute;content:"";height:1px;border-top:1px solid;top:50%;display:inline-block;width:100%;border-color:inherit}
+.tem11-side-picture-text .title-header .title{color:#232323;display:inline-block;margin-right:20px;line-height:20px;font-weight:500}

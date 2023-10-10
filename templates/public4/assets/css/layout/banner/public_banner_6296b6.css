@@ -1,0 +1,55 @@
+.tem62-banner{width:100%;}
+.tem62-banner .container{position:relative;}
+.tem62-banner.content-section{padding:0;}
+.tem62-banner img{width:100%;}
+.tem62-banner a{color:inherit;}
+.tem62-banner .title_t{line-height:1;font-size:100px;}
+.tem62-banner .title_t_1,
+.tem62-banner .box_1,
+.tem62-banner .box_2{display:none;}
+.tem62-banner .flexBox_{display:flex;display:-webkit-flex;align-items:center;}
+.tem62-banner .flexBox_ .num_{color:#4f2508;font-size:80px;padding-right:20px;}
+.tem62-banner .flexBox_ .em_{flex-grow:1;font-size:40px;line-height:1;}
+.tem62-banner .tem61-banner-con{width:100%;position:relative;}
+.tem62-banner .con{color:#fff;}
+.tem62-banner .con .tem61-banner-con .swiper-pagination-bullet{background:none!important;}
+.tem62-banner .con .tem61-banner-con .swiper-pagination-bullet:after{content:"";width:0;height:0;border:4px solid;display:block;}
+.tem62-banner .tem61-banner-con .swiper-button-next,
+.tem62-banner .tem61-banner-con .swiper-button-prev{background:none!important;width:auto;height:auto;margin-top:-25px;}
+.tem62-banner .tem61-banner-con .swiper-button-next.swiper-button-disabled,
+.tem62-banner .tem61-banner-con .swiper-button-prev.swiper-button-disabled{pointer-events:auto;cursor:auto;}
+.tem62-banner .tem61-banner-con .swiper-button-next>span,
+.tem62-banner .tem61-banner-con .swiper-button-prev>span{display:block;width:50px;height:50px;font-size:50px;line-height:50px;text-shadow:0 1px 2px rgba(0,0,0,.5);transition:.3s;text-align:center;}
+.tem62-banner .tem61-banner-con .swiper-button-next>span{transform:rotate(180deg);}
+.tem62-banner .con .tem61-banner-con .text{display:none;}
+.tem62-banner .text{position:absolute;top:50%;transform:translateY(-50%);width:70%;left:15%;z-index:10;}
+.tem62-banner .text .title{font-size:24px;margin-bottom:10px;}
+.tem62-banner.content-left .text{text-align:left;}
+.tem62-banner.content-middle .text{text-align:center;}
+.tem62-banner.content-right .text{text-align:right;}
+.tem62-banner .text a.more{margin-top:10px;display:inline-block;padding:.5em 2em;border:2px solid;border-color:inherit;color:inherit;transition:.5s;font-size:20px;border-radius:6px;}
+@media (min-width:768px){
+.tem62-banner .tem61-banner-con{width:100%;height:100vh;}
+.tem62-banner img{width:100%;height:100%;object-fit:cover;}
+.tem62-banner .tem61-banner-con .swiper-button-next>span:hover,
+.tem62-banner .tem61-banner-con .swiper-button-prev>span:hover{opacity:0.6;}
+.tem62-banner .tem61-banner-con .swiper-button-next.swiper-button-disabled>span,
+.tem62-banner .tem61-banner-con .swiper-button-prev.swiper-button-disabled>span{opacity:.6}
+.tem62-banner .tem61-banner-con .pcno{display:none;}
+}
+@media (max-width:768px){
+.tem62-banner .tem61-banner-con .appno{display:none;}
+.tem62-banner .con .tem61-banner-con .swiper-pagination-bullet{width:4px;height:4px;}
+.tem62-banner .con .tem61-banner-con .swiper-pagination-bullet:after{border:2px solid;}
+.tem62-banner .tem61-banner-con .swiper-button-next,
+.tem62-banner .tem61-banner-con .swiper-button-prev{margin-top:-20px;}
+.tem62-banner .tem61-banner-con .swiper-button-next>span,
+.tem62-banner .tem61-banner-con .swiper-button-prev>span{width:40px;height:40px;font-size:20px;line-height:40px;}
+.tem62-banner .text{left:10%;width:80%;}
+.tem62-banner .text .title{font-size:14px;}
+.tem62-banner .text .description{font-size:12px;}
+.tem62-banner .text a.more{font-size:14px;}
+.tem62-banner .flexBox_ .num_,
+.tem62-banner .flexBox_ .title_t{font-size:40px;}
+.tem62-banner .flexBox_ .em_{font-size:20px;}
+}
