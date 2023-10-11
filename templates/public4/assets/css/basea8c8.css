@@ -1619,7 +1619,7 @@ td.visible-print,th.visible-print {display:table-cell!important}
 .tem-btn-1,.tem-btn-2 {background:-webkit-linear-gradient(left,#3aafff,#3aafff) no-repeat;background:linear-gradient(to right,#3aafff,#3aafff) no-repeat}
 .tem-btn-1:hover,.tem-btn-2:hover,.tem-btn-3:hover,.tem-btn-4:hover,.tem-btn-5:hover,.tem-btn-6:hover,.tem-btn-7:hover,.tem-btn-8:hover,.tem-btn-9:hover,.tem01-page .pagination>.active>a,.tem01-page .pagination>.active>a:focus,.tem01-page .pagination>.active>a:hover,.tem01-page .pagination>.active>span,.tem01-page .pagination>.active>span:focus,.tem01-page .pagination>.active>span:hover {color:#FFF}
 .btn-bg:hover {border-color:#FFF}
-:root {--main-color:#3aafff;--rgb-color:58,175,255}
+:root {--main-color:#3aafff;--rgb-color:255,110,0}
 .modal-open {overflow-y:visible}
 a,a:focus,a:hover,button {outline:0!important;blr:expression(this.onFocus=this.blur())}
 [layout-id="3"] img,section img {max-width:100%;height:auto!important}
