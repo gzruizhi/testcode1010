@@ -1607,19 +1607,19 @@ td.visible-print,th.visible-print {display:table-cell!important}
 .bg-color-gray-level-F0F0F0 {background-color:#f0f0f0}
 .bg-color-gray-level-F5F5F5 {background-color:#f5f5f5}
 .border-color-gray-level-E6E6E6 {border-color:#e6e6e6}
-.font-color,.font-color-a a,.font-color-a a:hover,.font-color-after:after,.font-color-before:before,.font-color-hover-after:hover:after,.font-color-hover-before:hover:before,.font-color-hover:hover,a,a:hover {color:#3aafff}
-.border-color,.border-color-a a,.border-color-a a:hover,.border-color-after:after,.border-color-before:before,.border-color-hover-after:hover:after,.border-color-hover-before:hover:before,.border-color-hover:hover,.btn-primary,.btn-primary:hover {border-color:#3aafff}
-.bg-color,.bg-color-a a,.bg-color-a a:hover,.bg-color-after:after,.bg-color-before:before,.bg-color-hover-after:hover:after,.bg-color-hover-before:hover:before,.bg-color-hover:hover,.btn-primary,.btn-primary:hover {background-color:#3aafff}
-.bg-color-h a {color:#3aafff}
-.bg-color-h a:hover {background-color:#3aafff;color:#fff}
-.owl-dot-AH-bg-color .owl-dot.active span,.owl-dot-AH-bg-color .owl-dot:hover span,.owl-pagination-active-bg-color .owl-pagination .owl-page.active span,.swiper-pagination-bullet-active,.swiper-pagination-bullet:hover {background-color:#3aafff!important}
-.btn-bg:hover,.tem-btn-1,.tem-btn-2,.tem-btn-3,.tem-btn-4,.tem-btn-5,.tem-btn-6,.tem-btn-7,.tem-btn-8,.tem-btn-9 {color:#3aafff}
-.btn-bg,.tem-btn-1,.tem-btn-2,.tem-btn-3,.tem-btn-4,.tem-btn-5,.tem-btn-6,.tem-btn-7,.tem-btn-8,.tem-btn-9,.tem01-page .pagination>.active>a,.tem01-page .pagination>.active>a:focus,.tem01-page .pagination>.active>a:hover,.tem01-page .pagination>.active>span,.tem01-page .pagination>.active>span:focus,.tem01-page .pagination>.active>span:hover {border-color:#3aafff}
-.btn-bg,.btn-bg:hover,.tem-btn-3:before,.tem-btn-4:before,.tem-btn-5:before,.tem-btn-6:before,.tem-btn-7:after,.tem-btn-7:before,.tem-btn-8:after,.tem-btn-8:before,.tem-btn-9:after,.tem-btn-9:before,.tem01-page .pagination>.active>a,.tem01-page .pagination>.active>a:focus,.tem01-page .pagination>.active>a:hover,.tem01-page .pagination>.active>span,.tem01-page .pagination>.active>span:focus,.tem01-page .pagination>.active>span:hover {background-color:#3aafff}
-.tem-btn-1,.tem-btn-2 {background:-webkit-linear-gradient(left,#3aafff,#3aafff) no-repeat;background:linear-gradient(to right,#3aafff,#3aafff) no-repeat}
+.font-color,.font-color-a a,.font-color-a a:hover,.font-color-after:after,.font-color-before:before,.font-color-hover-after:hover:after,.font-color-hover-before:hover:before,.font-color-hover:hover,a,a:hover {color:#ff6e00}
+.border-color,.border-color-a a,.border-color-a a:hover,.border-color-after:after,.border-color-before:before,.border-color-hover-after:hover:after,.border-color-hover-before:hover:before,.border-color-hover:hover,.btn-primary,.btn-primary:hover {border-color:#ff6e00}
+.bg-color,.bg-color-a a,.bg-color-a a:hover,.bg-color-after:after,.bg-color-before:before,.bg-color-hover-after:hover:after,.bg-color-hover-before:hover:before,.bg-color-hover:hover,.btn-primary,.btn-primary:hover {background-color:#ff6e00}
+.bg-color-h a {color:#ff6e00}
+.bg-color-h a:hover {background-color:#ff6e00;color:#fff}
+.owl-dot-AH-bg-color .owl-dot.active span,.owl-dot-AH-bg-color .owl-dot:hover span,.owl-pagination-active-bg-color .owl-pagination .owl-page.active span,.swiper-pagination-bullet-active,.swiper-pagination-bullet:hover {background-color:#ff6e00!important}
+.btn-bg:hover,.tem-btn-1,.tem-btn-2,.tem-btn-3,.tem-btn-4,.tem-btn-5,.tem-btn-6,.tem-btn-7,.tem-btn-8,.tem-btn-9 {color:#ff6e00}
+.btn-bg,.tem-btn-1,.tem-btn-2,.tem-btn-3,.tem-btn-4,.tem-btn-5,.tem-btn-6,.tem-btn-7,.tem-btn-8,.tem-btn-9,.tem01-page .pagination>.active>a,.tem01-page .pagination>.active>a:focus,.tem01-page .pagination>.active>a:hover,.tem01-page .pagination>.active>span,.tem01-page .pagination>.active>span:focus,.tem01-page .pagination>.active>span:hover {border-color:#ff6e00}
+.btn-bg,.btn-bg:hover,.tem-btn-3:before,.tem-btn-4:before,.tem-btn-5:before,.tem-btn-6:before,.tem-btn-7:after,.tem-btn-7:before,.tem-btn-8:after,.tem-btn-8:before,.tem-btn-9:after,.tem-btn-9:before,.tem01-page .pagination>.active>a,.tem01-page .pagination>.active>a:focus,.tem01-page .pagination>.active>a:hover,.tem01-page .pagination>.active>span,.tem01-page .pagination>.active>span:focus,.tem01-page .pagination>.active>span:hover {background-color:#ff6e00}
+.tem-btn-1,.tem-btn-2 {background:-webkit-linear-gradient(left,#ff6e00,#ff6e00) no-repeat;background:linear-gradient(to right,#ff6e00,#ff6e00) no-repeat}
 .tem-btn-1:hover,.tem-btn-2:hover,.tem-btn-3:hover,.tem-btn-4:hover,.tem-btn-5:hover,.tem-btn-6:hover,.tem-btn-7:hover,.tem-btn-8:hover,.tem-btn-9:hover,.tem01-page .pagination>.active>a,.tem01-page .pagination>.active>a:focus,.tem01-page .pagination>.active>a:hover,.tem01-page .pagination>.active>span,.tem01-page .pagination>.active>span:focus,.tem01-page .pagination>.active>span:hover {color:#FFF}
 .btn-bg:hover {border-color:#FFF}
-:root {--main-color:#3aafff;--rgb-color:255,110,0}
+:root {--main-color:#ff6e00;--rgb-color:255,110,0}
 .modal-open {overflow-y:visible}
 a,a:focus,a:hover,button {outline:0!important;blr:expression(this.onFocus=this.blur())}
 [layout-id="3"] img,section img {max-width:100%;height:auto!important}
